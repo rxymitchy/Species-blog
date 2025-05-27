@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post - My Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">My Blog</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="blog-post">
+            <header class="post-header">
+                <h2>The Art of Mindful Living</h2>
+                <div class="post-meta">
+                    <span><i class="far fa-user"></i> By Admin</span>
+                    <span><i class="far fa-calendar"></i> <time datetime="2023-05-15">May 15, 2023</time></span>
+                    <span><i class="far fa-comments"></i> 12 Comments</span>
+                </div>
+            </header>
+            
+            <div class="post-content">
+                <img src="images/bird1.jpg" alt="Blog Post Image" class="post-image">
+                
+                <p>The phoenix is a mythical bird that symbolizes rebirth, renewal, and immortality. According to ancient legends from Egypt, Greece, and Rome, the phoenix is said to live for 500 to 1,000 years before building a nest of aromatic wood, setting it ablaze, and being consumed by its own flames. From the ashes, a new phoenix arises, young and full of life, continuing the cycle. This powerful imagery has made the phoenix a universal emblem of resilience, often representing the ability to rise stronger after failure, loss, or destruction—a reminder that even in endings, there are new beginnings.</p>
+                
+                <h3>Finding Balance in Daily Life</h3>
+                
+                <p>Just like animals instinctively find balance in nature—whether it’s a bird gliding on the wind or a cat seeking the sun—we too can learn to pause, realign, and thrive in our daily rhythms</p>
+                
+                <blockquote>
+                    <p>"The present moment is filled with joy and happiness. If you are attentive, you will see it."</p>
+                    <footer>— Thich Nhat Hanh</footer>
+                </blockquote>
+                
+                <p>Animals like wolves live in packs yet know when to wander alone—reminding us that balance comes from knowing when to connect and when to recharge.</p>
+                
+                <div class="post-tags">
+                    <span>Tags:</span>
+                    <a href="#">Mindfulness</a>
+                    <a href="#">Wellness</a>
+                    <a href="#">Lifestyle</a>
+                </div>
+            </div>
+            
+            <div class="post-navigation">
+                <a href="#" class="prev-post"><i class="fas fa-arrow-left"></i> Previous Post</a>
+                <a href="#" class="next-post">Next Post <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <section class="comments-section">
+                <h3>Comments (12)</h3>
+                
+                <div class="comment">
+                    <div class="comment-author">
+                        <img src="images/avatar1.jpg" alt="Comment Author">
+                        <h4>John Doe</h4>
+                        <span class="comment-date">May 16, 2023</span>
+                    </div>
+                    <div class="comment-content">
+                        <p>Great article! I've been practicing mindfulness for a few months now and it's made a huge difference in my life.</p>
+                        <a href="#" class="reply-btn">Reply</a>
+                    </div>
+                </div>
+                
+                <div class="comment reply">
+                    <div class="comment-author">
+                        <img src="images/avatar2.jpg" alt="Comment Author">
+                        <h4>Jane Smith</h4>
+                        <span class="comment-date">May 17, 2023</span>
+                    </div>
+                    <div class="comment-content">
+                        <p>I completely agree with you, John. The benefits are truly remarkable.</p>
+                        <a href="#" class="reply-btn">Reply</a>
+                    </div>
+                </div>
+                
+                <form class="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <div class="form-group">
+                        <label for="comment-name">Name</label>
+                        <input type="text" id="comment-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment-email">Email</label>
+                        <input type="email" id="comment-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment-message">Comment</label>
+                        <textarea id="comment-message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Post Comment</button>
+                </form>
+            </section>
+        </article>
+        
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h3>About Author</h3>
+                <div class="author-info">
+                    <img src="images/author.jpg" alt="Author">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+                    <div class="author-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3>Categories</h3>
+                <ul class="categories-list">
+                    <li><a href="#">Lifestyle <span>(12)</span></a></li>
+                    <li><a href="#">Travel <span>(8)</span></a></li>
+                    <li><a href="#">Food <span>(5)</span></a></li>
+                    <li><a href="#">Technology <span>(7)</span></a></li>
+                    <li><a href="#">Health <span>(9)</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3>Popular Posts</h3>
+                <div class="popular-post">
+                    <img src="images/popular1.jpg" alt="Popular Post">
+                    <div class="popular-content">
+                        <h4><a href="#">10 Tips for Better Sleep</a></h4>
+                        <span class="post-date">April 28, 2023</span>
+                    </div>
+                </div>
+                <div class="popular-post">
+                    <img src="images/popular2.jpg" alt="Popular Post">
+                    <div class="popular-content">
+                        <h4><a href="#">The Future of Remote Work</a></h4>
+                        <span class="post-date">May 5, 2023</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3>Tags</h3>
+                <div class="tags-container">
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Travel</a>
+                    <a href="#">Food</a>
+                    <a href="#">Technology</a>
+                    <a href="#">Health</a>
+                    <a href="#">Mindfulness</a>
+                    <a href="#">Wellness</a>
+                    <a href="#">Productivity</a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
